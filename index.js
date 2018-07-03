@@ -9,6 +9,9 @@ for (let i=1; i<101; i++) {
     if (i % 7 == 0) {
         string += "Bang";
     }
+    if (i % 11 == 0) {
+        string = "Bong";
+    }
     if (string == "") {
         console.log(i);
     } else {
